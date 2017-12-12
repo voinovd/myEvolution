@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+    <resource>
+        <difficulty>29</difficulty>
+        <name>ResourceName</name>
+    </resource>
+    <resource>
+        <difficulty>290</difficulty>
+        <name>ResourcerName2</name>
+    </resource>
+</resources>
+

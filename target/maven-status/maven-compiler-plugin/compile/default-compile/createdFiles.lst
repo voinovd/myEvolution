@@ -1,0 +1,8 @@
+logic\ResourceJaxbParser.class
+logic\Resource.class
+logic\ResourceParser.class
+logic\Task.class
+logic\JaxbResourceParser.class
+logic\ResourceList.class
+logic\Main.class
+logic\ResourceCreator.class

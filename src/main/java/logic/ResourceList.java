@@ -2,19 +2,18 @@ package logic;
 
 import javax.xml.bind.annotation.*;
 import java.util.List;
-
-@XmlRootElement(name="resources")
+@XmlRootElement(name="Resources")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ResourceList {
 
-    @XmlElement(name="resource")
-    private List<Resource> resourceList;
+    @XmlElement(name="Resource")
+    public List<Resource> resourceList;
 
     public List<Resource> getResourceList() {
         return resourceList;
     }
 
-    public void setResourceList(List<Resource> customerList) {
+    public void setResourceList(List<Resource> resourceList) {
         this.resourceList = resourceList;
     }
 

@@ -1,12 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<resources>
-    <resource>
-        <difficulty>29</difficulty>
-        <name>ResourceName</name>
-    </resource>
-    <resource>
-        <difficulty>290</difficulty>
-        <name>ResourcerName2</name>
-    </resource>
-</resources>
-
+<Resources>
+    <Resource>
+        <Name>Здоровье</Name>
+        <Tasks>
+            <Task>
+                <TaskName>Сделать зарядку</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Прогуляться</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Заняться спортом</TaskName>
+                <Complete>False</Complete>
+            </Task>
+        </Tasks>
+    </Resource>
+    <Resource>
+        <Name>Работа</Name>
+        <Tasks>
+            <Task>
+                <TaskName>Получить задание</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Понять задание</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Выполнить задание</TaskName>
+                <Complete>False</Complete>
+            </Task>
+        </Tasks>
+    </Resource>
+    <Resource>
+        <Name>Семья</Name>
+        <Tasks>
+            <Task>
+                <TaskName>Прочитать книгу детям</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Погулять с детьми</TaskName>
+                <Complete>False</Complete>
+            </Task>
+            <Task>
+                <TaskName>Поужинать с семьей</TaskName>
+                <Complete>False</Complete>
+            </Task>
+        </Tasks>
+    </Resource>
+    <Resource>
+        <Name>Друзья</Name>
+        <Tasks>
+            <Task>
+                <TaskName>Сходить на пикник</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Встретиться</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Поиграть в футбол</TaskName>
+                <Complete>False</Complete>
+            </Task>
+        </Tasks>
+    </Resource>
+    <Resource>
+        <Name>Хобби</Name>
+        <Tasks>
+            <Task>
+                <TaskName>Почитать книгу</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Посмтореть фильм</TaskName>
+                <Complete>True</Complete>
+            </Task>
+            <Task>
+                <TaskName>Поиграть в приставку</TaskName>
+                <Complete>False</Complete>
+            </Task>
+        </Tasks>
+    </Resource>
+</Resources>
